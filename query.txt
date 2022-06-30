@@ -1,0 +1,2 @@
+The following is the query that one will run in order to get a list of movies anad their corresponding genres:
+SELECT * FROM movies INNER JOIN genres ON movies.m_id = genres.g_id;
